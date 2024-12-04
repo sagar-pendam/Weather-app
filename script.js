@@ -211,7 +211,7 @@ isPM1= 'am'
 }
 
 
-function clearBlurBackground() {
+async function clearBlurBackground() {
     const overlay = document.getElementsByClassName("myDiv")[0];
     overlay.style.backdropFilter = "none";
   }
@@ -225,7 +225,7 @@ let retriveDate = document.getElementsByClassName("search-logo2")[1];
     
    
     // console.log("e")
-    clearBlurBackground()
+   await clearBlurBackground()
     await main(index)
     let today = document.getElementsByClassName("today")[0]
     let hourly1 = document.getElementsByClassName("hourly")[0]
