@@ -213,7 +213,7 @@ isPM1= 'am'
 
 async function clearBlurBackground() {
     const overlay = document.getElementsByClassName("myDiv")[0];
-    overlay.style.backdropFilter = "none";
+    overlay.style.filter = "none";
   }
 // Example usage
 const inputDateTime = "2024-11-27T23:29:00"; // ISO format of "2024-11-27 11:29 PM"
@@ -226,7 +226,7 @@ let retriveDate = document.getElementsByClassName("search-logo2")[1];
    
     // console.log("e")
     const overlay = document.getElementsByClassName("myDiv")[0];
-    overlay.style.backdropFilter = "none";
+    // overlay.style.backdropFilter = "none";
    await clearBlurBackground()
     await main(index)
     let today = document.getElementsByClassName("today")[0]
