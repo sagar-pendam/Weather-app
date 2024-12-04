@@ -211,7 +211,10 @@ isPM1= 'am'
 }
 
 
-
+function clearBlurBackground() {
+    const overlay = document.getElementByClassName("myDiv")[0];
+    overlay.style.backdropFilter = "none";
+  }
 // Example usage
 const inputDateTime = "2024-11-27T23:29:00"; // ISO format of "2024-11-27 11:29 PM"
 // console.log(formatDateTime2(inputDateTime)); // Output: "Thu 11.29p"
@@ -222,7 +225,7 @@ let retriveDate = document.getElementsByClassName("search-logo2")[1];
     
    
     // console.log("e")
-   
+    clearBlurBackground()
     await main(index)
     let today = document.getElementsByClassName("today")[0]
     let hourly1 = document.getElementsByClassName("hourly")[0]
