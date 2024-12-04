@@ -2,7 +2,9 @@ body {
     font-family: "Lato", sans-serif;
     background-color: #334155;
   }
-  
+  .myDiv{
+    filter: blur(5px);
+  }
   .sidebar {
     height: 100%;
     width: 0;
