@@ -382,7 +382,7 @@ let retriveDate = document.getElementsByClassName("search-logo2")[1];
                                         </span>
                                     </div>
                                     <div>
-                                        <h1 class="sm:text-xl text-[15px]">${times1[count].slice(0, 5)}</h1>
+                                        <h1 class="sm:text-xl text-[15px]">${times1[count].slice(0, 4)+"0"}</h1>
                                     </div>
                                 </div>
         `
