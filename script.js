@@ -212,7 +212,7 @@ isPM1= 'am'
 
 
 function clearBlurBackground() {
-    const overlay = document.getElementByClassName("myDiv")[0];
+    const overlay = document.getElementsByClassName("myDiv")[0];
     overlay.style.backdropFilter = "none";
   }
 // Example usage
