@@ -225,6 +225,8 @@ let retriveDate = document.getElementsByClassName("search-logo2")[1];
     
    
     // console.log("e")
+    const overlay = document.getElementsByClassName("myDiv")[0];
+    overlay.style.backdropFilter = "none";
    await clearBlurBackground()
     await main(index)
     let today = document.getElementsByClassName("today")[0]
